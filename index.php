@@ -12,7 +12,7 @@
     of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the blind text 
     of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then.";
 
-    $censured = $GET["censured"];
+    $censured = $_GET["censured"];
 
     $modified = str_replace($censured, "***", $paragraph);
 
